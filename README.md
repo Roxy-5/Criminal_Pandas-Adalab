@@ -15,7 +15,7 @@ Instala las dependencias necesarias:
 Ejecuta el proyecto.  
 Ejecuta la presentación en Tableau.
 
-🪐 Autores  
+🪐 Autor
 Rocío Ramírez
 
 ### 🌌 Proceso llevado a cabo para la limpieza y corrección
