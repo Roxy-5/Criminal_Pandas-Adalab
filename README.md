@@ -20,7 +20,7 @@ Rocío Ramírez
 
 ### 🌌 Proceso llevado a cabo para la limpieza y corrección
 
-### 🚀 Respuestas a las preguntas del cliente:
+### 🚀 Respuestas a las preguntas del cliente
 
 ### 🌋 Hallazgos
 
