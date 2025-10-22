@@ -19,17 +19,38 @@ Ejecuta la presentación en Tableau.
 Rocío Ramírez
 
 ### 🌌 Proceso llevado a cabo para la limpieza y corrección
+- **Carga de datos:** se usa la función load_csv con sep=';' para leer los ficheros trimestre1-trimestre4 y se mantienen las copias originales.
+- **Estandarización:** se normalizan los nombres de columnas: strip, lower y espacios→guión bajo; se eliminan los caracteres no alfanuméricos.
+- **Unificación:** se asegura el conjunto de columnas (cols_union), se añade el campo 'trimestre' y se concatena con df_all.
+- **Limpieza numérica:** se convierte la columna 'total' a numérico, se eliminan los separadores de miles ('.'), se cambia la coma decimal a punto y se convierten con pd.to_numeric(errors='coerce').
+- **Detección inteligente de columnas (búsqueda heurística):** comunidad/autonomía, tipología, periodos.
+- **Filtrado de filas no deseadas:** exclusión de filas agregadas (regex para 'total', 'nacional', 'España', etc.) y filas de variación porcentual.
 
 ### 🚀 Respuestas a las preguntas del cliente
 1. **¿Qué tipología penal concentra más hechos en cada trimestre?**
+![](https://github.com/user-attachments/assets/e7f30c72-ebb9-430b-8224-c06150809bf0)
+La criminalidad convencional es la más frecuente en todos los trimestres.
 
-2. ¿Cómo evoluciona el total de delitos por comunidad autónoma a lo largo de los trimestres?
+2. **¿Cómo evoluciona el total de delitos por comunidad autónoma a lo largo de los trimestres?**
+![](https://github.com/user-attachments/assets/c2f91ada-cbde-4aed-aad4-4be6985a981f")
+Cataluña, Andalucía, Madrid, Comunidad Valenciana y País Vasco.
 
-3. ¿Qué comunidades tuvieron más homicidios y asesinatos?
+3. **¿Qué comunidades tuvieron más homicidios y asesinatos?**
+![](https://github.com/user-attachments/assets/2ecc240d-fca3-45a9-ab21-040ea9c4ab0e)
+Comunidad Valenciana, Extremadura, Andalucía, Cantabria y Cataluña.
 
-4. ¿En qué periodos se concentran más delitos por tipología y trimestre?
+5. **¿En qué periodos se concentran más delitos por tipología y trimestre?**
+![](https://github.com/user-attachments/assets/f6fc228b-f250-444b-9d23-3fb32353c95d)
+En enero-diciembre del trimestre 4.
 
-5. 
 ### 🌋 Hallazgos
+- La criminalidad convencional aparece como el delito más frecuente en todos los trimestres.
+- Top 5 comunidades con más delitos: Cataluña, Andalucía, Madrid, Comunidad Valenciana y País Vasco.
+- Top 5 comunidades con más homicidios y asesinatos: Comunitat Valenciana, Extremadura, Andalucía, Cantabria y Cataluña.
+- Periodos: tras convertir los periodos acumulativos a no‑acumulativos, la mayor incidencia queda en el tramo final del año (trimestre 4).
 
 ### 🧭 Recomendaciones estratégicas
+- Calcular tasas por 100k habitantes para ajustar por el tamaño de la población y medir el riesgo real por habitante. 
+- Filtrar comunidades con pocas observaciones y aplicar control de outliers antes de interpretar variabilidad.
+- Calcular intervalos de confianza (poisson) para ver si las diferencias son estadísticamente relevantes.
+- Agrupar CCAA por perfil de delitos (clustering) para proponer políticas regionales compartidas.
