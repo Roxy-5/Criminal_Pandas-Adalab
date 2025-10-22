@@ -2,6 +2,11 @@
 ### 🔍 Criminal Pandas 🔪🩸
 
 ### 🎬 Storytelling
+Somos Criminal Pandas 🐼: un escuadrón de analistas nocturnos que merodean entre tablas y gráficos. Bajo la luz tenue del PC olfateamos anomalías, atrapamos outliers como si fuera bambú y convertimos datos sospechosos en pruebas irrefutables.
+
+Dicen que, cuando cae la noche, los trimestres susurran secretos y nosotros los escuchamos para convertirlos en gráficos que estremecen (pero que siempre pasan por control de calidad). Si algo huele a error o a etiqueta mal escrita, allí aparece un panda con una lupa y un cuaderno de notas.
+
+Advertencia: nuestros análisis dan miedo 👻 a los datos sucios.
 
 ### 🌍 Cómo usar  
 Clona este repositorio.    
@@ -24,7 +29,7 @@ Rocío Ramírez
 - **Unificación:** se asegura el conjunto de columnas (cols_union), se añade el campo 'trimestre' y se concatena con df_all.
 - **Limpieza numérica:** se convierte la columna 'total' a numérico, se eliminan los separadores de miles ('.'), se cambia la coma decimal a punto y se convierten con pd.to_numeric(errors='coerce').
 - **Detección inteligente de columnas (búsqueda heurística):** comunidad/autonomía, tipología, periodos.
-- **Filtrado de filas no deseadas:** exclusión de filas agregadas (regex para 'total', 'nacional', 'España', etc.) y filas de variación porcentual.
+- **Filtrado de filas no deseadas:** exclusión de filas agregadas (regex para 'total', 'nacional', 'en el extranjero', etc.) y filas de variación porcentual.
 
 ### 🚀 Respuestas a las preguntas del cliente
 1. **¿Qué tipología penal concentra más hechos en cada trimestre?**
@@ -40,7 +45,7 @@ Cataluña, Andalucía, Madrid, Comunidad Valenciana y País Vasco.
 Comunidad Valenciana, Extremadura, Andalucía, Cantabria y Cataluña.
 
 5. **¿En qué periodos se concentran más delitos por tipología y trimestre?**
-![](https://github.com/user-attachments/assets/f6fc228b-f250-444b-9d23-3fb32353c95d)
+![](https://github.com/user-attachments/assets/e43080a2-60ea-47e0-bae1-28eeb875a30c)
 En enero-diciembre del trimestre 4.
 
 ### 🌋 Hallazgos
@@ -50,7 +55,7 @@ En enero-diciembre del trimestre 4.
 - Periodos: tras convertir los periodos acumulativos a no‑acumulativos, la mayor incidencia queda en el tramo final del año (trimestre 4).
 
 ### 🧭 Recomendaciones estratégicas
-- Calcular tasas por 100k habitantes para ajustar por el tamaño de la población y medir el riesgo real por habitante. 
+- Calcular tasas por 100k habitantes para ajustar por el tamaño de la población y así medir el riesgo real por habitante. 
 - Filtrar comunidades con pocas observaciones y aplicar control de outliers antes de interpretar variabilidad.
 - Calcular intervalos de confianza (poisson) para ver si las diferencias son estadísticamente relevantes.
 - Agrupar CCAA por perfil de delitos (clustering) para proponer políticas regionales compartidas.
