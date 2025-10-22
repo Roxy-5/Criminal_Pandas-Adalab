@@ -1,5 +1,6 @@
 ![](https://github.com/Roxy-5/Evaluacion1-Adalab/blob/main/image.jpg?raw=true)
 ### 🔍 Criminal Pandas 🔪🩸
+Analizamos los datos de España en el año 2024 para conocer sus tendencias de criminalidad por comunidades autónomas para así priorizar recursos, diseñar intervenciones y prevenir delitos.
 
 ### 🎬 Storytelling
 Somos Criminal Pandas 🐼: un escuadrón de analistas nocturnos que merodean entre tablas y gráficos. Bajo la luz tenue del PC olfateamos anomalías, atrapamos outliers como si fuera bambú y convertimos datos sospechosos en pruebas irrefutables.
@@ -24,7 +25,7 @@ Ejecuta la presentación en Tableau.
 Rocío Ramírez
 
 ### 🌌 Proceso llevado a cabo para la limpieza y corrección
-- **Carga segura:** se usa la función load_csv con sep=';' para leer los ficheros trimestre1-trimestre4 pertenecientes al año 2024 en España y se mantienen las copias originales.
+- **Carga segura:** se usa la función load_csv con sep=';' para leer los ficheros trimestre1-trimestre4 y se mantienen las copias originales.
 - **Estandarización:** se normalizan los nombres de columnas: strip, lower y espacios→guión bajo; se eliminan los caracteres no alfanuméricos.
 - **Unión:** se asegura el conjunto de columnas (cols_union), se añade el campo 'trimestre' y se concatena con df_all.
 - **Limpieza numérica:** se convierte la columna 'total' a numérico, se eliminan los separadores de miles ('.'), se cambia la coma decimal a punto y se convierten con pd.to_numeric(errors='coerce').
