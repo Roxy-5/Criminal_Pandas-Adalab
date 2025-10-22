@@ -5,7 +5,7 @@ Analizamos los datos de España en el año 2024 para conocer sus tendencias de c
 ### 🎬 Storytelling
 Somos Criminal Pandas 🐼: un escuadrón de analistas nocturnos que merodean entre tablas y gráficos. Bajo la luz tenue del PC olfateamos anomalías, atrapamos outliers como si fuera bambú y convertimos datos sospechosos en pruebas irrefutables.
 
-Dicen que, cuando cae la noche, los trimestres susurran secretos y nosotros los escuchamos para convertirlos en gráficos que estremecen. Si algo huele a error o a etiqueta mal escrita, allí aparece un panda con su cuaderno para registrarlo todo.
+Dicen que, cuando cae la noche, los trimestres susurran secretos y nosotros los escuchamos para convertirlos en gráficos que estremecen. Si algo huele a error o a etiqueta mal escrita, allí aparece un panda con su cuaderno de notas para registrarlo todo.
 
 Advertencia: nuestros análisis dan miedo 👻 a los datos sucios.
 
