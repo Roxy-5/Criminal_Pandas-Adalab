@@ -29,7 +29,7 @@ Rocío Ramírez
 - **Unión:** se asegura el conjunto de columnas (cols_union), se añade el campo 'trimestre' y se concatena con df_all.
 - **Limpieza numérica:** se convierte la columna 'total' a numérico, se eliminan los separadores de miles ('.'), se cambia la coma decimal a punto y se convierten con pd.to_numeric(errors='coerce').
 - **Control de calidad:** se registran shape, dtypes, nulos y duplicados.
-- **Correcciones rápidas aplicadas:** se usan las variables correctas en bucles (df vs dfc).
+- **Correcciones rápidas:** se usan las variables correctas en bucles (df vs dfc).
 - **Detección inteligente (búsqueda heurística):** de las columnas comunidad/autonomía, tipología y periodos por si sus nombres varían.
 - **Filtrado:** exclusión de filas agregadas (regex para 'total', 'nacional', 'en el extranjero') y filas de variación porcentual por no ser relevantes para nuestro análisis.
 
