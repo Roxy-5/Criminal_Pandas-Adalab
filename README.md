@@ -4,7 +4,7 @@
 ### 🎬 Storytelling
 Somos Criminal Pandas 🐼: un escuadrón de analistas nocturnos que merodean entre tablas y gráficos. Bajo la luz tenue del PC olfateamos anomalías, atrapamos outliers como si fuera bambú y convertimos datos sospechosos en pruebas irrefutables.
 
-Dicen que, cuando cae la noche, los trimestres susurran secretos y nosotros los escuchamos para convertirlos en gráficos que estremecen (pero que siempre pasan por control de calidad). Si algo huele a error o a etiqueta mal escrita, allí aparece un panda con una lupa y un cuaderno de notas.
+Dicen que, cuando cae la noche, los trimestres susurran secretos y nosotros los escuchamos para convertirlos en gráficos que estremecen (pero que siempre pasan por control de calidad). Si algo huele a error o a etiqueta mal escrita, allí aparece un panda con un cuaderno de notas.
 
 Advertencia: nuestros análisis dan miedo 👻 a los datos sucios.
 
