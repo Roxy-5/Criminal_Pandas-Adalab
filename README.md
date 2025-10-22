@@ -31,7 +31,6 @@ Rocío Ramírez
 - **Control de calidad:** se registran shape, dtypes, nulos y duplicados.
 - **Detección inteligente (búsqueda heurística):** de las columnas comunidad/autonomía, tipología y periodos por si sus nombres varían.
 - **Filtrado:** exclusión de filas agregadas (regex para 'total', 'nacional', 'en el extranjero') y filas de variación porcentual por no ser relevantes para nuestro análisis.
-- **Salidas y reproducibilidad:** se exporta df_all limpio y resúmenes (CSV) + gráficos para versionar el notebook.
 
 ### 🚀 Respuestas a las preguntas del cliente
 1. **¿Qué tipología penal concentra más hechos en cada trimestre?**
