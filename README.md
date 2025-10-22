@@ -28,8 +28,10 @@ Rocío Ramírez
 - **Estandarización:** se normalizan los nombres de columnas: strip, lower y espacios→guión bajo; se eliminan los caracteres no alfanuméricos.
 - **Unión:** se asegura el conjunto de columnas (cols_union), se añade el campo 'trimestre' y se concatena con df_all.
 - **Limpieza numérica:** se convierte la columna 'total' a numérico, se eliminan los separadores de miles ('.'), se cambia la coma decimal a punto y se convierten con pd.to_numeric(errors='coerce').
-- **Detección inteligente de columnas (búsqueda heurística):** comunidad/autonomía, tipología, periodos.
-- **Filtrado de filas no deseadas:** exclusión de filas agregadas (regex para 'total', 'nacional', 'en el extranjero', etc.) y filas de variación porcentual.
+- **Control de calidad:** se registran shape, dtypes, nulos y duplicados; se crea df_yearly antes de generar los plots.
+- **Detección inteligente (búsqueda heurística):** de las columnas comunidad/autonomía, tipología y periodos por si sus nombres varían.
+- **Filtrado:** exclusión de filas agregadas (regex para 'total', 'nacional', 'en el extranjero') y filas de variación porcentual por no ser relevantes para nuestro análisis.
+- **Salidas y reproducibilidad:** se exporta df_all limpio y resúmenes (CSV) + gráficos para versionar el notebook.
 
 ### 🚀 Respuestas a las preguntas del cliente
 1. **¿Qué tipología penal concentra más hechos en cada trimestre?**
