@@ -24,7 +24,7 @@ Ejecuta la presentación en Tableau.
 Rocío Ramírez
 
 ### 🌌 Proceso llevado a cabo para la limpieza y corrección
-- **Carga de datos:** se usa la función load_csv con sep=';' para leer los ficheros trimestre1-trimestre4 pertenecientes al año 2024 y se mantienen las copias originales.
+- **Carga segura:** se usa la función load_csv con sep=';' para leer los ficheros trimestre1-trimestre4 pertenecientes al año 2024 y se mantienen las copias originales.
 - **Estandarización:** se normalizan los nombres de columnas: strip, lower y espacios→guión bajo; se eliminan los caracteres no alfanuméricos.
 - **Unión:** se asegura el conjunto de columnas (cols_union), se añade el campo 'trimestre' y se concatena con df_all.
 - **Limpieza numérica:** se convierte la columna 'total' a numérico, se eliminan los separadores de miles ('.'), se cambia la coma decimal a punto y se convierten con pd.to_numeric(errors='coerce').
