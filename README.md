@@ -31,7 +31,7 @@ Rocío Ramírez
 - **Control de calidad:** se registran shape, dtypes, nulos y duplicados.
 - **Correcciones rápidas:** se usan las variables correctas en bucles (df vs dfc).
 - **Detección inteligente (búsqueda heurística):** de las columnas comunidad/autonomía, tipología y periodos por si sus nombres varían.
-- **Filtrado:** exclusión de filas agregadas (regex para 'total', 'nacional', 'en el extranjero') y filas de variación porcentual por no ser relevantes para nuestro análisis.
+- **Filtrado:** exclusión de filas agregadas (regex para 'total', 'nacional', 'en el extranjero') y filas de variación porcentual por no ser relevantes.
 
 ### 🚀 Respuestas a las preguntas del cliente
 1. **¿Qué tipología penal concentra más hechos en cada trimestre?**
