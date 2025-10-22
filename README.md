@@ -56,6 +56,6 @@ En enero-diciembre del trimestre 4.
 
 ### 🧭 Recomendaciones estratégicas
 - Calcular tasas por 100k habitantes para ajustar por tamaño de la población y así medir el riesgo real por habitante. 
-- Filtrar comunidades con pocas observaciones y aplicar control de outliers antes de interpretar variabilidad.
+- Filtrar comunidades con pocas observaciones y aplicar control de outliers antes de interpretar la variabilidad.
 - Calcular intervalos de confianza (poisson) para ver si las diferencias son estadísticamente relevantes.
 - Agrupar CCAA por perfil de delitos (clustering) para proponer políticas regionales compartidas.
