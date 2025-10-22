@@ -1,6 +1,6 @@
 ![](https://github.com/Roxy-5/Evaluacion1-Adalab/blob/main/image.jpg?raw=true)
 ### 🔍 Criminal Pandas 🔪🩸
-Analizamos los datos de España en el año 2024 para conocer sus tendencias de criminalidad por comunidades autónomas para así priorizar recursos, diseñar intervenciones y prevenir delitos.
+Analizamos los datos de España en el año 2024 para conocer sus tendencias de criminalidad por comunidades autónomas. Así podemos priorizar recursos, diseñar intervenciones y prevenir delitos.
 
 ### 🎬 Storytelling
 Somos Criminal Pandas 🐼: un escuadrón de analistas nocturnos que merodean entre tablas y gráficos. Bajo la luz tenue del PC olfateamos anomalías, atrapamos outliers como si fuera bambú y convertimos datos sospechosos en pruebas irrefutables.
