@@ -31,7 +31,7 @@ Rocío Ramírez
 - **Limpieza numérica:** se convierte la columna 'total' a numérico, se eliminan los separadores de miles ('.'), se cambia la coma decimal a punto y se convierten con pd.to_numeric(errors='coerce').
 - **Control de calidad:** se registran shape, dtypes, nulos y duplicados.
 - **Correcciones rápidas:** se usan las variables correctas en bucles (df vs dfc).
-- **Detección inteligente (búsqueda heurística):** de las columnas comunidad/autonomía, tipología y periodos por si sus nombres varían en algo.
+- **Detección inteligente (búsqueda heurística):** de las columnas comunidad/autonomía, tipología y periodos por si sus nombres varían algo.
 - **Filtrado:** exclusión de filas agregadas (regex para 'total', 'nacional', 'en el extranjero') y filas de variación porcentual por no ser relevantes.
 
 ### 🚀 Respuestas a las preguntas del cliente
