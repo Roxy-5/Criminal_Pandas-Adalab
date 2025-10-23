@@ -39,7 +39,7 @@ Rocío Ramírez
 ![](https://github.com/user-attachments/assets/e7f30c72-ebb9-430b-8224-c06150809bf0)
 La criminalidad convencional es la más frecuente en todos los trimestres.
 
-2. **¿Cómo evoluciona el total de delitos por comunidad autónoma a lo largo de los trimestres?**
+2. **Top 5 comunidades autónomas con más delitos por trimestre**
 ![](https://github.com/user-attachments/assets/c2f91ada-cbde-4aed-aad4-4be6985a981f")
 Cataluña, Andalucía, Madrid, Comunidad Valenciana y País Vasco.
 
