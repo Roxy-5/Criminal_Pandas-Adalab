@@ -35,7 +35,7 @@ Rocío Ramírez
 - **Filtrado:** exclusión de filas agregadas (regex para 'total', 'nacional', 'en el extranjero') y filas de variación porcentual por no ser relevantes.
 
 ### 🚀 Respuestas a las preguntas del cliente
-1. **¿Qué tipología penal concentra más hechos en cada trimestre?**
+1. **¿Qué tipología penal concentra más delitos en cada trimestre?**
 ![](https://github.com/user-attachments/assets/e7f30c72-ebb9-430b-8224-c06150809bf0)
 La criminalidad convencional es la más frecuente en todos los trimestres.
 
