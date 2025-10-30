@@ -41,11 +41,11 @@ La criminalidad convencional es la más frecuente en todos los trimestres.
 
 2. **Top 5 comunidades autónomas con más delitos por trimestre**
 ![](https://github.com/user-attachments/assets/d37c77a6-054e-46f7-a32d-7a35fc894367)
-Cataluña, Andalucía, Madrid, Comunidad Valenciana y País Vasco.
+Cataluña, Andalucía, Madrid, Comunidad Valenciana y Canarias.
 
 3. **¿Qué comunidades tuvieron más homicidios y asesinatos?**
 ![](https://github.com/user-attachments/assets/358671cc-0eb7-499e-8b1d-903f7c0850cd)
-Comunidad Valenciana, Extremadura, Andalucía, Cantabria y Cataluña.
+Andalucía, Cataluña, Comunidad Valenciana, Madrid y Galicia.
 
 5. **¿En qué periodos se concentran más delitos por tipología y trimestre?**
 ![](https://github.com/user-attachments/assets/149099d2-8ae4-487f-b211-c89084c3ce0b)
