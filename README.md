@@ -33,6 +33,7 @@ Rocío Ramírez
 - **Correcciones rápidas:** se usan las variables correctas en bucles (df vs dfc).
 - **Detección inteligente (búsqueda heurística):** de las columnas comunidad/autonomía, tipología y periodos por si sus nombres varían.
 - **Filtrado:** exclusión de filas agregadas (regex para 'total nacional', 'en el extranjero') y filas de variación porcentual por no ser relevantes.
+- **Implementación:** se hace mapeo ordenado de períodos (enero-marzo, enero-junio, etc.).
 
 ### 🚀 Respuestas a las preguntas del cliente
 1. **¿Qué tipología penal es más frecuente por trimestre?**
@@ -47,14 +48,14 @@ Cataluña, Andalucía, Madrid, Comunidad Valenciana y Canarias.
 ![](https://github.com/user-attachments/assets/358671cc-0eb7-499e-8b1d-903f7c0850cd)
 Andalucía, Cataluña, Comunidad Valenciana, Madrid y Galicia.
 
-5. **¿En qué periodos se concentran más delitos por tipología y trimestre?**
+4. **¿En qué periodos se concentran más delitos por tipología y trimestre?**
 ![](https://github.com/user-attachments/assets/149099d2-8ae4-487f-b211-c89084c3ce0b)
 En enero-diciembre del trimestre 4.
 
 ### 🌋 Hallazgos
 - La criminalidad convencional aparece como el delito más frecuente en todos los trimestres.
-- Top 5 comunidades con más delitos: Cataluña, Andalucía, Madrid, Comunidad Valenciana y País Vasco.
-- Top 5 comunidades con más homicidios y asesinatos: Comunitat Valenciana, Extremadura, Andalucía, Cantabria y Cataluña.
+- Top 5 comunidades con más delitos: Cataluña, Andalucía, Madrid, Comunidad Valenciana y Canarias.
+- Top 5 comunidades con más homicidios y asesinatos: Andalucía, Cataluña, Comunitad Valenciana, Madrid y Galicia.
 - Periodos: tras convertir los periodos acumulativos a no‑acumulativos, la mayor incidencia queda en el tramo final del año (trimestre 4).
 
 ### 🧭 Recomendaciones estratégicas
