@@ -36,19 +36,19 @@ Rocío Ramírez
 
 ### 🚀 Respuestas a las preguntas del cliente
 1. **¿Qué tipología penal es más frecuente por trimestre?**
-![](https://github.com/user-attachments/assets/e7f30c72-ebb9-430b-8224-c06150809bf0)
+![](https://github.com/user-attachments/assets/7f13bd30-6832-4273-8ba5-12a4208517ca)
 La criminalidad convencional es la más frecuente en todos los trimestres.
 
 2. **Top 5 comunidades autónomas con más delitos por trimestre**
-![](https://github.com/user-attachments/assets/64585d29-7b53-4ab6-83fe-9fdace4730cb)
+![](https://github.com/user-attachments/assets/d37c77a6-054e-46f7-a32d-7a35fc894367)
 Cataluña, Andalucía, Madrid, Comunidad Valenciana y País Vasco.
 
 3. **¿Qué comunidades tuvieron más homicidios y asesinatos?**
-![](https://github.com/user-attachments/assets/2ecc240d-fca3-45a9-ab21-040ea9c4ab0e)
+![](https://github.com/user-attachments/assets/358671cc-0eb7-499e-8b1d-903f7c0850cd)
 Comunidad Valenciana, Extremadura, Andalucía, Cantabria y Cataluña.
 
 5. **¿En qué periodos se concentran más delitos por tipología y trimestre?**
-![](https://github.com/user-attachments/assets/e43080a2-60ea-47e0-bae1-28eeb875a30c)
+![](https://github.com/user-attachments/assets/149099d2-8ae4-487f-b211-c89084c3ce0b)
 En enero-diciembre del trimestre 4.
 
 ### 🌋 Hallazgos
