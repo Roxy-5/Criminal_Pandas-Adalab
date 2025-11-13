@@ -3,7 +3,7 @@
 Analizamos los delitos 🔪🩸 de España en el año 2024 obtenidos del SEO para conocer las tendencias de criminalidad por comunidades autónomas. Así podremos prevenirlos, priorizar recursos y diseñar intervenciones adecuadas.
 
 ### 🎬 Storytelling
-Somos Criminal Pandas 🐼: un escuadrón de analistas nocturnos que merodean entre tablas y gráficos 📈. Bajo la luz tenue del PC olfateamos anomalías, atrapamos outliers como si fuera bambú y convertimos datos sospechosos en pruebas irrefutables.
+Somos Criminal Pandas 🐼: un escuadrón de analistas nocturnos que merodean entre tablas y gráficos 📉. Bajo la luz tenue del PC olfateamos anomalías, atrapamos outliers como si fuera bambú y convertimos datos sospechosos en pruebas irrefutables.
 
 Dicen que, cuando cae la noche, los trimestres susurran secretos y nosotros los escuchamos para convertirlos en gráficos que estremecen. Si algo huele a error o a etiqueta mal escrita, allí aparece un panda con su cuaderno de notas y lupa en mano para registrarlo todo.
 
