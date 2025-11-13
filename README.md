@@ -1,6 +1,6 @@
 ![](https://github.com/Roxy-5/Evaluacion1-Adalab/blob/main/image.jpg?raw=true)
-### Criminal Pandas 🔪🩸
-Analizamos los delitos de España en el año 2024 obtenidos del SEO para conocer las tendencias de criminalidad por comunidades autónomas. Así podremos prevenirlos, priorizar recursos y diseñar intervenciones adecuadas.
+### 📊 Criminal Pandas 
+Analizamos los delitos 🔪🩸 de España en el año 2024 obtenidos del SEO para conocer las tendencias de criminalidad por comunidades autónomas. Así podremos prevenirlos, priorizar recursos y diseñar intervenciones adecuadas.
 
 ### 🎬 Storytelling
 Somos Criminal Pandas 🐼: un escuadrón de analistas nocturnos que merodean entre tablas y gráficos 📊. Bajo la luz tenue del PC olfateamos anomalías, atrapamos outliers como si fuera bambú y convertimos datos sospechosos en pruebas irrefutables.
@@ -9,7 +9,7 @@ Dicen que, cuando cae la noche, los trimestres susurran secretos y nosotros los 
 
 Advertencia: nuestros análisis dan miedo 👻 a los datos sucios.
 
-### 🌍 Cómo usar  
+### 🚀 Cómo usar  
 Clona este repositorio.    
 Instala las dependencias necesarias:  
 - seaborn  
@@ -24,7 +24,7 @@ Ejecuta la presentación en Tableau.
 🪐 Autor
 Rocío Ramírez
 
-### 🌌 Proceso llevado a cabo para la limpieza y corrección
+### 📈 Proceso llevado a cabo para la limpieza y corrección
 - **Carga segura:** se usa la función load_csv con sep=';' para leer los ficheros trimestre1-trimestre4 y se mantienen las copias originales.
 - **Estandarización:** se normalizan los nombres de columnas: strip, lower y espacios→guión bajo; se eliminan los caracteres no alfanuméricos.
 - **Unión:** se asegura el conjunto de columnas (cols_union), se añade el campo 'trimestre' y se concatena con df_all.
@@ -35,7 +35,7 @@ Rocío Ramírez
 - **Filtrado:** exclusión de filas agregadas (regex para 'total nacional', 'en el extranjero') y filas de variación porcentual por no ser relevantes.
 - **Implementación:** se hace mapeo ordenado de períodos (enero-marzo, enero-junio, etc.).
 
-### 🚀 Respuestas a las preguntas del cliente
+### 🎯 Respuestas a las preguntas del cliente
 1. **¿Qué tipología penal es más frecuente por trimestre?**
 ![](https://github.com/user-attachments/assets/7f13bd30-6832-4273-8ba5-12a4208517ca)
 La criminalidad convencional es la más frecuente en todos los trimestres.
